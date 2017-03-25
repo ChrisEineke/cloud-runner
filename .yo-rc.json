@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Chris Eineke",
+      "authorEmail": "chris@ei.ne.ke",
+      "authorUrl": "https://ei.ne.ke/"
+    }
+  }
+}
