@@ -2,19 +2,22 @@
   "name": "cloudrunner",
   "version": "0.0.0",
   "description": "",
-  "homepage": "",
+  "homepage": "https://www.github.com/ceineke/cloudrunner",
   "author": {
     "name": "Chris Eineke",
     "email": "chris@ei.ne.ke",
-    "url": ""
+    "url": "https://ei.ne.ke/"
   },
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "keywords": [
     ""
   ],
+  "bin": {
+    "cloudrunner": "./bin/cloudrunner.js"
+  },
   "devDependencies": {
     "coveralls": "^2.12.0",
     "nsp": "^2.6.3",
@@ -39,5 +42,16 @@
   "jest": {
     "testEnvironment": "node"
   },
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "command-line-args": "^4.0.2",
+    "command-line-commands": "^2.0.0",
+    "do-wrapper": "^3.11.1",
+    "es6-error": "^4.0.2",
+    "lodash": "^4.17.4",
+    "log4js": "^1.1.1",
+    "minimist": "^1.2.0",
+    "node-ssh": "^4.1.0",
+    "when": "^3.7.8"
+  }
 }
