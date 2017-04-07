@@ -1,8 +1,8 @@
 {
-  "name": "cloudrunner",
+  "name": "cloud-runner",
   "version": "0.0.0",
   "description": "",
-  "homepage": "https://www.github.com/ceineke/cloudrunner",
+  "homepage": "https://www.github.com/ceineke/cloud-runner",
   "author": {
     "name": "Chris Eineke",
     "email": "chris@ei.ne.ke",
@@ -16,7 +16,7 @@
     ""
   ],
   "bin": {
-    "cloudrunner": "./bin/cloudrunner.js"
+    "cloud-runner": "./bin/cloud-runner.js"
   },
   "devDependencies": {
     "coveralls": "^2.12.0",
@@ -38,7 +38,7 @@
       "node": true
     }
   },
-  "repository": "git@github.com:ceineke/cloudrunner.git",
+  "repository": "git@github.com:ceineke/cloud-runner.git",
   "jest": {
     "testEnvironment": "node"
   },
