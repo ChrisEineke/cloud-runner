@@ -28,7 +28,7 @@
   },
   "scripts": {
     "prepublish": "nsp check",
-    "pretest": "eslint **/*.js --fix",
+    "pretest": "eslint **/*.js",
     "test": "jest"
   },
   "eslintConfig": {
@@ -36,6 +36,12 @@
     "env": {
       "jest": true,
       "node": true
+    },
+    "rules": {
+      "indent": [
+        "warn",
+        4
+      ]
     }
   },
   "repository": "git@github.com:ceineke/cloud-runner.git",
@@ -46,12 +52,14 @@
   "dependencies": {
     "command-line-args": "^4.0.2",
     "command-line-commands": "^2.0.0",
+    "debug": "^2.6.6",
     "do-wrapper": "^3.11.1",
     "es6-error": "^4.0.2",
     "lodash": "^4.17.4",
     "log4js": "^1.1.1",
     "minimist": "^1.2.0",
     "node-ssh": "^4.1.0",
+    "vultr": "0.0.6",
     "when": "^3.7.8"
   }
 }
